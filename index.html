@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Narrolite Preparatory school</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid position-relative bg-white d-flex p-0">
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading please wait...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Sidebar Start -->
+        <div class="sidebar pe-4 pb-3">
+            <nav class="navbar  navbar-light">
+                <a href="index.html" class="navbar-brand mx-4 mb-3">
+                    <img src="img/kstu_logo.png" alt="" width="50rem">
+                    <h3 class="text-light">NPS</h3>
+                    
+                </a>
+                <div class="d-flex align-items-center ms-4 mb-4">
+                    <div class="position-relative">
+                        </div>
+                   
+                </div>
+                <div class="navbar-nav  w-100">
+                    <small class=" text-muted mb-2 ">Main Menu</small>
+                    <a href="index.html" class="nav-item nav-link active"><i class="bi bi-house me-2"></i>Dashboard</a>
+                       <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="bi bi-person-fill me-2"></i>Bio-data</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="#" class="dropdown-item">Student List</a>
+                            <a href="#" class="dropdown-item">Student View</a>
+                            <a href="#" class="dropdown-item">Student Add</a>
+                            <a href="#" class="dropdown-item">Student Edit</a>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-chalkboard-teacher me-2"></i>Teachers</a>
+                            <div class="dropdown-menu bg-transparent border-0">
+                                <a href="#" class="dropdown-item">Teacher List</a>
+                                <a href="#" class="dropdown-item">Teacher View</a>
+                                <a href="#" class="dropdown-item">Teacher Add</a>
+                                <a href="#" class="dropdown-item">Teacher Edit</a>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-building me-2"></i>Classes</a>
+                                <div class="dropdown-menu bg-transparent border-0">
+                                    <a href="#" class="dropdown-item">Class List</a>
+                                    <a href="#" class="dropdown-item">Class Add</a>
+                                    <a href="#" class="dropdown-item">Class Edit</a>
+                                </div>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-book-reader me-2"></i>Subjects</a>
+                                    <div class="dropdown-menu bg-transparent border-0">
+                                        <a href="#" class="dropdown-item">Subject List</a>
+                                        <a href="#" class="dropdown-item">Subject Add</a>
+                                        <a href="#" class="dropdown-item">Subject Edit</a>
+                                    </div>
+                 
+                                   
+                    </div>
+                    <small class="text-muted col-sm-3">Management</small>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-file-invoice-dollar me-2"></i>Accounts</a>
+                        <div class="dropdown-menu bg-transparent border-0">
+                            <a href="#" class="dropdown-item">Fees Collection</a>
+                            <a href="#" class="dropdown-item">Salary</a>
+                            <a href="#" class="dropdown-item">Add Fees</a>
+                            <a href="#" class="dropdown-item">Add Salary</a>
+                        </div>
+                    <a href="#" class="nav-item nav-link"><i class="fa fa-holly-berry me-2"></i>Holiday</a>
+                    <a href="#" class="nav-item nav-link"><i class="fa fa-comment-dollar me-2"></i>Fees</a>
+                    <a href="#" class="nav-item nav-link"><i class="fa fa-clipboard-list me-2"></i>Exam List</a>
+                    <a href="#" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Time Table</a>
+                    <a href="#" class="nav-item nav-link"><i class="fa fa-cog me-2"></i>Settings</a>
+                    
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Sidebar End -->
+
+
+        <!-- Content Start -->
+        <div class="content">
+            <!-- Navbar Start -->
+            <nav class="navbar navbar-expand navbar-light sticky-top px-4 py-0" id="navigation">
+                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
+                    <h2 class="text-primary mb-0"><img src="img/kstu_logo.png" alt="" width="40px"></h2>
+                </a>
+                <a href="#" class="sidebar-toggler flex-shrink-0">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <form class="d-none d-md-flex ms-4">
+                    <input class="form-control border-0" type="search" placeholder="Search">
+                </form>
+                <div class="navbar-nav align-items-center ms-auto">
+                    
+                           
+                            
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            <img class="rounded-circle me-lg-2" src="img/chris.jpg" alt="" style="width: 40px; height: 40px;">
+                            <span class="d-none d-lg-inline-flex mb-3">Kwame Chris
+                                <p class="position-absolute top-50   ">Admin</p>
+                            </span>
+                           
+                        </a>
+                        <div class=" dropdown-menu dropdown-menu-end bg- border-0 rounded-0 rounded-bottom m-0" style="background-color:#f9f9f9 ;">
+                            <div class="user-header">
+                                <div class="avatar avatar-sm">
+                                    <img  src="img/chris.jpg" alt="" class="avatar-img rounded-circle" >
+                                </div>
+                                <div class="user-text">
+                                    <h6>Profile Menu</h6>
+                                    <div class="text-muted mb-0">Admin</div>
+                                </div>
+                            </div>
+                           
+                            <a href="#" class="dropdown-item">My Profile</a>
+                            <a href="#" class="dropdown-item">Inbox</a>
+                            <a href="#" class="dropdown-item">Log Out</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+
+
+            <!-- Dashbaord start-->
+            <div class="container-fluid pt-4 px-4">
+<div class="col-sm-12">
+    <div class="page-header">
+    <div class="page-sub-header">
+        <h3 class="page-title">Welcome Admin</h3>
+    </div>
+   
+
+
+                <div class="row g-4">
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                           
+                            <div class="ms-3">
+                                <p class="mb-2">Students</p>
+                                <h6 class="mb-0">1000</h6>
+                            </div>
+                            <img src="img/dash-icon-01.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                          
+                            <div class="ms-3">
+                                <p class="mb-2">Awards</p>
+                                <h6 class="mb-0">4</h6>
+                            </div>
+                            <img src="img/dash-icon-02.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                          
+                            <div class="ms-3">
+                                <p class="mb-2">Classes</p>
+                                <h6 class="mb-0">10+</h6>
+                            </div>
+                            <img src="img/dash-icon-03.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-xl-3">
+                        <div class="bg-light rounded d-flex align-items-center justify-content-between p-4">
+                        
+                            <div class="ms-3">
+                                <p class="mb-2">Total Revenue</p>
+                                <h6 class="mb-0">GHS2,134</h6>
+                            </div>
+                            <img src="img/dash-icon-04.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dashboard end -->
+
+
+            <!-- total students -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="row g-4">
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="bg-light text-center rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h6 class="mb-0">Number of students</h6>
+                                <a href="">Show All</a>
+                            </div>
+                            <canvas id="students"></canvas>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-xl-6">
+                        <div class="bg-light text-center rounded p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <h6 class="mb-0">Overview</h6>
+                                <a href="">Show All</a>
+                            </div>
+                            <canvas id="overview"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- total students End -->
+
+            <!-- Staff Mebers -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="bg-light rounded h-100 p-4">
+                    <h6 class=" text-center mb-4" style="font-size:1.5rem;">Management Staff</h6>
+                    <div class="owl-carousel staff">
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid rounded-circle mx-auto mb-4" src="img/chris.jpg" style="width: 100px; height: 100px;">
+                            <h5 class="mb-1"> Name</h5>
+                            <p>Position</p>
+                            <p class="mb-0">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        </div>
+                        <div class="testimonial-item text-center">
+                            <img class="img-fluid rounded-circle mx-auto mb-4" src="img/chris.jpg" style="width: 100px; height: 100px;">
+                            <h5 class="mb-1"> Name</h5>
+                            <p>Position</p>
+                            <p class="mb-0">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Star Students -->
+            <div class="container-fluid pt-4 px-4 ">
+                <div class="bg-light text-center rounded p-4">
+                    <div class="d-flex align-items-center justify-content-between mb-4">
+                        <h6 class="mb-0">Star Students <i class="bi bi-stars"></i>
+                        </h6>
+                        <a href="">Show All</a>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table text-start align-middle table-bordered table-hover mb-0">
+                            <thead>
+                                <tr class="text-dark">
+                                    <th scope="col"><input class="form-check-input" type="checkbox"></th>
+                                    <th scope="col">ID</th>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Marks</th>
+                                    <th scope="col">Percentage</th>
+                                    <th scope="col">Year</th>
+                                    <th scope="col">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>01</td>
+                                    <td>kofi</td>
+                                    <td>100</td>
+                                    <td>90%</td>
+                                    <td>2020</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>01</td>
+                                    <td>kofi</td>
+                                    <td>100</td>
+                                    <td>90%</td>
+                                    <td>2020</td>>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>01</td>
+                                    <td>kofi</td>
+                                    <td>100</td>
+                                    <td>90%</td>
+                                    <td>2020</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>01</td>
+                                    <td>kofi</td>
+                                    <td>100</td>
+                                    <td>90%</td>
+                                    <td>2020</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                                <tr>
+                                    <td><input class="form-check-input" type="checkbox"></td>
+                                    <td>01</td>
+                                    <td>kofi</td>
+                                    <td>100</td>
+                                    <td>90%</td>
+                                    <td>2020</td>
+                                    <td><a class="btn btn-sm btn-primary" href="">Detail</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- star students end -->
+
+            
+            
+
+            
+
+            <!-- Footer Start -->
+            <div class="container-fluid pt-4 px-4">
+                <div class="text-c  rounded-top p-4">
+                    <div class="row">
+                        <div class=" col-12 col-sm-6 text-center text-sm-start">
+                            Copyright &copy;  Narrowlite International
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+        <!-- Content End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/chart/chart.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
